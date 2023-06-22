@@ -28,7 +28,7 @@ namespace ChallengesWithTestsMark8
 
         public int GetSmallestNumber(int number1, int number2)
         {
-            throw new NotImplementedException();
+            return (number1 - number2) ;
         }
 
         public long Multiply(long factor1, long factor2)
@@ -40,7 +40,7 @@ namespace ChallengesWithTestsMark8
         {
             if (nameOfPerson != "")
             {
-                return "Hello,{nameOfPerson}";
+                return $"Hello,{nameOfPerson}";
             }
             else
             {
